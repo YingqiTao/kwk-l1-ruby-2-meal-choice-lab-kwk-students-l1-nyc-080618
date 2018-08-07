@@ -16,14 +16,18 @@ def dinner(dinner_food = "salmon")
   puts "#{dinner_food} is for dinner."
 end
 
-
 # Call the methods with puts and your own arguments here. Like this:
 puts snacks("Swedish fish")
 ## This returns "Any time, is the right time for Sweedish fish!"
 
 # call your methods here
-
+breakfast("scramble eggs")
+lunch("sandwhich")
+dinner("pasta")
 
 # Call your methods without any arguments here
 puts snacks
+breakfast
+lunch
+dinner
 ## In our snacks method, the default choice is "Cheetos" Calling snacks like this without specifying a choice will return "Any time, is the right time for Cheetos!"
